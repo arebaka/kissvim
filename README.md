@@ -1,6 +1,9 @@
 # kissvim
 > Keep It Simple, Stupid!
 
+![](https://img.shields.io/tokei/lines/github/arebaka/kissvim)
+![](https://img.shields.io/github/repo-size/arebaka/kissvim)
+
 A keymap for normal & visual modes of the Vim to make it easy.  
 This keymap gives you the ability to edit your configs with one left hand.  
 The right hand at this time can be lowered under the table to edit something else more.
