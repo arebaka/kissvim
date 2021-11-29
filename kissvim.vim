@@ -11,9 +11,9 @@ nnoremap - -
 nnoremap + +
 nnoremap _ _
 nnoremap = =
-nnoremap ` q
+nnoremap ` `
 nnoremap ~ ~
-nnoremap ! !
+nnoremap \! !
 nnoremap @ @
 nnoremap # #
 nnoremap $ $
@@ -31,7 +31,7 @@ nnoremap { }
 nnoremap n n
 nnoremap N N
 
-" bookmarks
+" marks
 nnoremap m m
 
 " navigation
@@ -96,11 +96,32 @@ nnoremap T O
 nnoremap z d
 nnoremap x c
 nnoremap c y
-
 nnoremap v p
 nnoremap b x
-
 nnoremap V P
 nnoremap B X
-
 nnoremap j J
+
+vnoremap z d
+vnoremap x c
+vnoremap c y
+vnoremap v p
+vnoremap b x
+vnoremap V P
+vnoremap B X
+vnoremap j J
+
+" autocomplete
+inoremap <C-Space> <C-n>
+
+" simple exit
+noremap <C-x> :q<Enter>
+
+" tab
+vnoremap <Tab> >
+vnoremap <S-Tab> <
+
+" doublekeys
+nnoremap zz dd
+nnoremap xx cc
+nnoremap cc yy
