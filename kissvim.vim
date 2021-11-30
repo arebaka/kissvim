@@ -45,6 +45,9 @@ nnoremap D w
 nnoremap W <C-b>
 nnoremap S <C-f>
 
+nnoremap <C-a> 0
+nnoremap <C-d> $
+
 nnoremap Z H
 nnoremap X M
 nnoremap C L
@@ -61,6 +64,9 @@ vnoremap A b
 vnoremap D w
 vnoremap W <C-b>
 vnoremap S <C-f>
+
+vnoremap <C-a> 0
+vnoremap <C-d> $
 
 vnoremap Z H
 vnoremap X M
@@ -115,7 +121,7 @@ vnoremap j J
 inoremap <C-Space> <C-n>
 
 " simple exit
-noremap <C-x> :q<Enter>
+noremap <C-x> :q<CR>
 
 " tab
 vnoremap <Tab> >
@@ -125,3 +131,7 @@ vnoremap <S-Tab> <
 nnoremap zz dd
 nnoremap xx cc
 nnoremap cc yy
+
+" moving lines
+nnoremap <C-w> :m -2<CR>
+nnoremap <C-s> :m +1<CR>
