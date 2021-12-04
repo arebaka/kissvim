@@ -9,17 +9,17 @@ This keymap gives you the ability to edit your configs with one left hand.
 The right hand at this time can be lowered under the table to edit something else more.
 
 ```
-,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
-| q | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 |   |   | <-    |
-|---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
-| ->| | ⇤ | ↑ | ⇥ | ↺ | ⤓ | ↷ | ↶ |   |   |   |   |   |  \  |
-|-----',--',--',--',--',--',--',--',--',--',--',--',--'-----|
-| Caps | ← | ↓ | → | ⌖ | ➠ |   | J |   |   |   |   |  Enter |
-|------'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'--------|
-|        | ⌧ | ✂ | © | ➤ | ⌦ |   |   | ? | / | : |          |
-|------,-',--'--,'---'---'---'---'---'---'-,-'---',--,------|
-| ctrl |  | alt |                          | alt  |  | ctrl |
-'------'  '-----'--------------------------'------'  '------'
+,---,---,---,---,---,---,---,---,---,---,---,---,---,------,
+| ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |  <-  |
+|---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,----|
+| ->| | ⇤ | ↑ | ⇥ | ↺ | ⤓ | ↷ | ↶ |   |   |   |   |   | \  |
+|-----',--',--',--',--',--',--',--',--',--',--',--',--'----|
+| Caps | ← | ↓ | → | ⌖ | ➠ |   | J |   |   |   |   | Enter |
+|------'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-------|
+| shift  | ⌧ | ✂ | © | ➤ | ⌦ |   |   | ? | / | : |   shift |
+|------,-'-,-'---|---'---'---'---'---'---',--'--,'--,------|
+| ctrl |   | alt |                        | alt |   | ctrl |
+'------'   '-----'------------------------'-----'   '------'
 ```
 
 ## general
@@ -28,53 +28,23 @@ The right hand at this time can be lowered under the table to edit something els
 | `/` | `:` | like slashtags in Telegram and some games |
 | `>` | `/` | forward search |
 | `<` | `?` | reverse search |
-| `.` | `.` | |
-| `,` | `,` | |
-| `'` | `'` | |
-| `"` | `"` | |
-| `;` | `;` | |
-| `-` | `-` | |
-| `+` | `+` | |
-| `_` | `_` | |
-| `=` | `=` | |
-| `` ` `` | `q` | |
-| `~` | `~` | |
-| `!` | `!` | |
-| `@` | `@` | |
-| `#` | `#` | |
-| `$` | `$` | |
-| `%` | `%` | |
-| `^` | `^` | |
-| `&` | `&` | |
-| `*` | `*` | |
-| `\` | `\` | |
-| `\|` | `\|` | |
-| `(` | `)` | |
-| `[` | `]` | |
-| `{` | `}` | |
 
-## search
-| new | old | hint |
-| --- | --- | ---- |
-| `n` | `n` | |
-| `N` | `N` | |
-
-## bookmarks
-| new | old | hint |
-| --- | --- | ---- |
-| `m` | `m` | |
+> as is:  
+> `` . , ' " ; - + _ = ` ~ ! @ # $ % ^ & * \ ( ) [ ] { } ``  
+> `` n N m `` (search & marks)  
+> `` g G ``
 
 ## navigation (normal & visual)
 | new | old | hint |
 | --- | --- | ---- |
-| `a` | `h` | WASD as in some games |
+| `a` | `h` | wasd as in some games |
 | `d` | `l` | |
 | `w` | `k` | |
 | `s` | `j` | |
 
 | new | old | hint |
 | --- | --- | ---- |
-| `A` | `b` | |
+| `A` | `b` | WASD |
 | `D` | `w` | |
 | `W` | `Ctrl+b` | |
 | `S` | `Ctrl+f` | |
@@ -87,8 +57,8 @@ The right hand at this time can be lowered under the table to edit something els
 
 | new | old | hint |
 | --- | --- | ---- |
-| `g` | `g` | |
-| `G` | `G` | |
+| `Ctrl+a` | `0` | |
+| `Ctrl+d` | `$` | |
 
 ## select
 | new | old | hint |
@@ -100,8 +70,8 @@ The right hand at this time can be lowered under the table to edit something els
 ## undo/redo
 | new | old | hint |
 | --- | --- | ---- |
-| `u` | `u` | |
-| `U` | `U` | |
+| `u` | `u` | as is |
+| `U` | `U` | as is |
 | `y` | `Ctrl+r` | as in some GUI programs |
 
 ## insert
@@ -109,7 +79,7 @@ The right hand at this time can be lowered under the table to edit something els
 | --- | --- | ---- |
 | `q` | `i` | to the left of WASD |
 | `e` | `a` | to the right of WASD |
-| `r` | `r` | |
+| `r` | `r` | as is |
 | `t` | `o` | |
 
 | new | old | hint |
@@ -119,17 +89,19 @@ The right hand at this time can be lowered under the table to edit something els
 | `R` | `R` | |
 | `T` | `O` | |
 
-## edit
+## edit (normal & visual)
 | new | old | hint |
 | --- | --- | ---- |
 | `z` | `d` | zxc |
 | `x` | `c` | |
 | `c` | `y` | |
 
+> `zz`, `xx`, and `cc` are available
+
 | new | old | hint |
 | --- | --- | ---- |
-| `v` | `p` | |
-| `b` | `x` | |
+| `v` | `p` | to the right of zxc |
+| `b` | `x` | backspace |
 
 | new | old | hint |
 | --- | --- | ---- |
@@ -139,3 +111,25 @@ The right hand at this time can be lowered under the table to edit something els
 | new | old | hint |
 | --- | --- | ---- |
 | `j` | `J` | |
+
+## autocomplete (insert)
+| new | old | hint |
+| --- | --- | ---- |
+| `Ctrl+Space` | `Ctrl+n` | |
+
+## exit (all modes)
+| new | old | hint |
+| --- | --- | ---- |
+| `Ctrl+x` | `:q` in normal | |
+
+## tab (visual)
+| new | old | hint |
+| --- | --- | ---- |
+| `Tab` | `>` | |
+| `Shift+Tab` | `<` | |
+
+## moving lines (all modes)
+| new | old | hint |
+| --- | --- | ---- |
+| `Ctrl+w` | `:m -2` in normal | |
+| `Ctrl+s` | `:m +1` in normal | |

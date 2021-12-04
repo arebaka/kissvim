@@ -121,7 +121,8 @@ vnoremap j J
 inoremap <C-Space> <C-n>
 
 " simple exit
-noremap <C-x> :q<CR>
+noremap <C-x> <Esc>:q<CR>
+inoremap <C-x> <Esc>:q<CR>
 
 " tab
 vnoremap <Tab> >
@@ -133,5 +134,7 @@ nnoremap xx cc
 nnoremap cc yy
 
 " moving lines
-nnoremap <C-w> :m -2<CR>
-nnoremap <C-s> :m +1<CR>
+noremap <C-w> <Esc>:m -2<CR>
+noremap <C-s> <Esc>:m +1<CR>
+inoremap <C-w> <Esc>:m -2<CR>
+inoremap <C-s> <Esc>:m +1<CR>
